@@ -1,0 +1,175 @@
+/*
+color : 3F3B6C,624F82,9F73AB,A3C7D6
+*/
+@font-face {
+    font-family: "poppins";
+    src: url("C:/Users/wirya muhammad/AppData/Local/Microsoft/Windows/Fonts/Poppins-Light.ttf");
+    font-weight: lighter;
+}
+:root{
+    --header:#FF6D28;
+    --cl2:#624F82;
+    --cl3:#9F73AB;
+    --cl4:#A3C7D6;
+    --ElmntFont:#ffffff;
+    --Font: poppins;
+}
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    font-family: var(--Font);
+}
+.container{
+    padding: 2%;
+    margin: 1% 1% 1% 1%;
+}
+.container .row{
+    margin-bottom: 20px;
+}
+.formInput .labelInput{
+    display: block;
+}
+table{
+    margin: auto;
+}
+#variable{
+    margin: 5px 2px 5px 2px;
+}
+.btn-style{
+    width: 40px;
+    height: 20px;
+    background-color: var(--header);
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    color: var(--ElmntFont);
+    border-radius: 5px;
+    padding: 0;
+}
+.btn-submit{
+    border: none;
+    background-color: var(--header);
+    color: var(--ElmntFont);
+    font-weight: bolder;
+    font-size: medium;
+    width: 5%;
+    height: 25px;
+    min-width: 60px;
+    border-radius: 5px;
+    padding: 0;
+}
+.btn-submit:hover,.btn-style:hover{
+    background-color: #df6127;
+    color: #ffffffc1;
+    transition: .3s;
+}
+header{
+    position: sticky;
+    background: var(--header);
+    color: var(--ElmntFont);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 0 5% 0 5%;
+}
+/* footer{
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: var(--header);
+    color: var(--ElmntFont);
+} */
+/* footer .footer-element{
+    width: fit-content;
+} */
+/* .OutputForecash{
+    visibility: hidden;
+} */
+.row span strong{
+    margin-left: 10px;
+}
+.box{
+    float: left;
+    width: 50%;
+    padding: 50px;
+    height: 100px;
+}
+.box-container{
+    content: "";
+    clear: both;
+    display: table;
+}
+.statusValidation{
+    background-color: #ff6e6e;
+    color: var(--ElmntFont);
+    visibility: hidden;
+}
+.input-calculate{
+    visibility: hidden;
+}
+ul{
+    list-style: none;
+    font-weight: bold;
+    text-align: left;
+    padding: 0;
+}
+ul li{
+    margin-bottom: 20px;
+}
+.center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Logo h2 svg{
+    vertical-align: super;
+    width: 10px;
+    height: 10px;
+}
+footer{
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    bottom: 0;
+
+}
+.HelpLogo svg{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+footer .help{
+    width: 50px;
+    display: flex;
+    font-weight: bold;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+footer .help span{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    color: var(--header);
+}
+footer a{
+    text-decoration: none;
+}
+.HasilPrediksi th, .HasilPrediksi td, .HasilPrediksi tr, .HasilPrediksi table{
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+ul .Pertanyaan{
+    list-style:circle;
+}
+ul .petunjuk{
+    list-style:decimal;
+}
